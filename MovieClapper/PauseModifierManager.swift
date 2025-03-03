@@ -2,7 +2,7 @@ import SwiftUI
 
 class PauseModifierManager: ObservableObject {
     
-    @Published private (set) var paused = true
+    @Published private(set) var paused = true
     @Published var currentTime = 0.0
     private var playStartedTime = 0.0
     private var playStartedDate: Date?
