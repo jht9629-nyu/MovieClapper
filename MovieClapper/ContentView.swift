@@ -1,6 +1,6 @@
 import SwiftUI
 import AVKit
-import Combine
+//import Combine
 
 struct ContentView: View {
     
